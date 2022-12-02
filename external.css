@@ -19,12 +19,8 @@
   margin-bottom: 0px;
   border-color: #A9A9A9;
 }
-/* ^ couldn't figure out an easier way to make a border fit better around centered text */
-.list-align{
-  width: 25%; 
-  margin-left: auto; 
-  margin-right: auto;
-}
+/* ^ trying to find a way to make a border fit well around centered text */
+
 
 table {
   border-style: dotted;
@@ -40,6 +36,7 @@ table {
   color: red;
   cursor: pointer;
 }
+/*^used to make the text on the form change color when a response is hovered over*/
 
 #move-image-right{
   float: right;
@@ -54,4 +51,8 @@ table {
 #push-down-image{
   position: relative;
   top: 50px
+}
+.image-spacing{
+  display: flex;
+  flex-direction: row;
 }
