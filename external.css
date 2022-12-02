@@ -1,0 +1,57 @@
+.text-align{
+    text-align: center;
+}
+
+.text-gray{
+   color: #5D5D5D
+}
+
+.background-blue{
+    background-color: #E2FFFF;
+}
+
+.make-border{
+  border-style: solid;  
+  border-width: 4px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: #A9A9A9;
+}
+/* ^ couldn't figure out an easier way to make a border fit better around centered text */
+.list-align{
+  width: 25%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+table {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #A9A9A9;
+}
+
+.survey-color{
+  color: black
+}
+
+.survey-color:hover{
+  color: red;
+  cursor: pointer;
+}
+
+#move-image-right{
+  float: right;
+}
+#add-margin{
+  margin: 12px;
+}
+#push-down-text{
+  position: relative;
+  top: 150px;
+}
+#push-down-image{
+  position: relative;
+  top: 50px
+}
